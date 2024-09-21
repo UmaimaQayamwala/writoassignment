@@ -1,0 +1,87 @@
+
+.container {
+    margin: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .add-column, 
+  .add-row {
+    margin-bottom: 20px;
+    /* margin-top:12px ; */
+  }
+  
+  .add-column input,
+  .add-column select,
+  .add-column button,
+  .add-row button {
+    margin-right: 10px;
+    /* margin: auto; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .add-column button,
+  .add-row button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-column button:hover,
+  .add-row button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+  }
+  
+  td input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  th input {
+    margin-top: 5px;
+    padding: 5px;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
